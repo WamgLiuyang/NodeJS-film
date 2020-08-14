@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "mongoDB test",
+  "main": "app.js",
+  "scripts": {
+    "serve": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "datalize": "^0.3.4",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0",
+    "koa-static": "^5.0.0",
+    "koa-static-server": "^1.5.2",
+    "koa2-connect-history-api-fallback": "^0.1.2",
+    "mongoose": "^5.9.22",
+    "opn": "^6.0.0",
+    "rd": "^2.0.1"
+  }
+}
